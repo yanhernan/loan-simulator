@@ -20,7 +20,7 @@ const AmortizationTb: FunctionComponent<AmortizationTbProps> = ({
     <Table size="small" dataSource={datasource}>
       <Table.Column dataIndex="couta" title="#" />
       <Table.Column dataIndex="date" title="Date" />
-      <Table.Column dataIndex="mount" title="Amount" render={formatNumber} />
+      <Table.Column dataIndex="mount" title="Capital" render={formatNumber} />
       <Table.Column dataIndex="interest" title="Interest" render={formatNumber} />
       <Table.Column dataIndex="payoff" title="PayOff" render={formatNumber} />
       <Table.Column dataIndex="total" title="Total" render={formatNumber} />
