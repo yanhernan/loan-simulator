@@ -27,7 +27,7 @@ const AmortizationForm: FunctionComponent<AmortizationFormProps> = ({ onAmortiza
   return (
     <Card title="Simulator">
       <Form layout="vertical" form={form} onValuesChange={onChangeValue}>
-        <Form.Item label="Amount" name="amount">
+        <Form.Item label="Capital" name="amount">
           <Input size="small" />
         </Form.Item>
         <Form.Item label="Apr" name="apr">
